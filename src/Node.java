@@ -13,10 +13,11 @@ import java.util.HashMap;
  */
 public class Node {
     private char c;
+
     boolean isWord = false;
     HashMap<Character, Node> children = new HashMap<Character, Node>();
 
-    public Node(){
+    public Node() {
 
     }
 
